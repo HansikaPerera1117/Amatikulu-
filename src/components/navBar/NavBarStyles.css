@@ -1,0 +1,27 @@
+.nav-items{
+    margin-top: 16px;
+    margin-right: 20px;
+    
+}
+
+.NavBar-sm{
+    display: none;
+}
+
+.nav-link:hover{
+   text-decoration: underline 3px white;
+}
+
+
+ @media (max-width: 753.98px) { 
+    .NavBar-sm{
+        display:block;
+    }
+    #NavBar-lg{
+        display: none;
+    }
+
+   #toggleBtn{
+    margin: 20px;
+   }
+  }

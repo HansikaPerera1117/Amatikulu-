@@ -1,0 +1,43 @@
+
+#fButton:hover{
+    background-color: #D37643 !important;
+    color: white !important;
+}
+
+.iButton:hover{
+    background-color: gray !important;
+    color: white !important;
+}
+
+.footer-text{
+    font-size: 14px;
+    color: #676A6C;
+    transition: font-size 0.3s; 
+}
+.footer-text:hover{
+    font-size: 16px !important;
+}
+
+@media (max-width: 991.98px) { 
+    #footer{
+        justify-content: end !important;
+        height: 405px !important;
+    }
+    
+}
+
+
+@media (max-width: 767.98px) { 
+    #footer{
+        height: 595px !important;
+    }
+    #fLogoRow{
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    #footer{
+        height: 900px !important;
+    }
+}

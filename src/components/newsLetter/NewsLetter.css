@@ -1,0 +1,119 @@
+
+#nwslBg {
+    position: relative;
+    bottom: 272px;
+}
+
+#nwslLine1 {
+    height: 152px;
+    width: 135px;
+    position: relative;
+    right: 21px;
+    bottom: 70px;
+}
+
+#nwslLine2 {
+    height: 143px;
+    width: 173px;
+    position: relative;
+    right: 75px;
+    bottom: 31px;
+}
+
+#nwsInputRow{
+    position: relative;
+    z-index: 1;
+}
+
+#sendBtn img, svg {
+margin-bottom: 7px;
+}
+
+#sendBtn>Button :hover{
+    height: 22px;
+    width: 22px;
+}
+
+
+/*----------------------------- responsive ----------------------------------------------*/
+@media (max-width: 1360.98px) { 
+    #nwslBox{
+        width: 1050px !important;
+    }
+    #nwslBg{
+        bottom: 255px;
+    }
+}
+
+@media (max-width: 1217.98px) { 
+    #nwslBox{
+        width: 918px !important;
+        height:310px !important
+    }
+}
+
+
+@media (max-width: 1058.98px) { 
+    #nwslBox{
+        width: 760px !important;
+        height:280px !important;
+    }
+
+    #nwslBoxRow{
+        margin-top: 0 !important;
+    }
+
+    #nwslBg {
+        width: 760px ;
+        height:280px ;
+    }
+    #nwslLine1 {
+        right: 54px;
+    }
+}
+
+
+@media (max-width: 869.98px) { 
+    #nwslBox{
+        width: 560px !important;
+    }
+    #nwslBoxRow{
+        height: 270px !important;
+    }
+    #signupBox{
+        height:97px !important ;
+        margin-top: 10px !important;
+    }
+}
+
+@media (max-width: 629.98px) { 
+    #Line1Div,#Line2Div{
+        display: none;
+    }
+    #nwslBox{
+        width: 445px !important;
+    }
+
+    #nwslBg {
+        height:228px ;
+        bottom: 257px;
+    }
+}
+
+@media (max-width: 460.98px) { 
+    #nwslBox{
+        width: 325px !important;
+        height:335px !important ;
+    }
+
+    #signupBox{
+        height:155px !important ;
+    }
+
+    #nwslBoxRow{
+        height: 280px !important;
+    }
+    #nwslBg {
+        display: none;
+    }
+}

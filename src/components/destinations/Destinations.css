@@ -1,0 +1,109 @@
+#destinations{
+    position: relative;
+}
+.arrowBtn> img, svg {
+    margin-bottom: 8px;
+}
+
+.arrowBtn:hover{
+    background-color: #008186 !important;
+    color: white !important;
+}
+
+.desCrds{
+    width:368px;
+    height:440px;
+}
+
+.desCrds img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: width 0.3s, height 0.3s; 
+  }
+  
+  .desCrds:hover img {
+    width: 105%; 
+    height: 105%; 
+  }
+
+  .buttons:hover{
+        background-color: #D37643 !important;
+  }
+
+/* --------------------responsive ----------------------------------*/
+
+@media (max-width: 1350.98px) { 
+    .desCrds{
+        width:328px !important;
+        height:400px !important;
+    }
+}
+
+@media (max-width: 1200.98px) { 
+    .desCrds{
+        width:288px !important;
+        height:380px !important;
+    }
+   
+}
+
+@media (max-width: 1100.98px) { 
+    .desCrds{
+        width:268px !important;
+        height:360px !important;
+    }
+}
+
+@media (max-width: 1024.98px) { 
+    .desCrds{
+        width:368px !important;
+        height:440px !important;
+    }
+}
+
+@media (max-width: 855.98px) { 
+    .desCrds{
+        width:328px !important;
+        height:400px !important;
+    }
+}
+
+@media (max-width: 790.98px) { 
+    .desCrds{
+        width:368px !important;
+        height:440px !important;
+    }
+}
+
+@media (max-width: 768.98px) { 
+    #destinations{
+        height: 700px !important;
+    }
+}
+
+@media (max-width: 673.98px) { 
+    #destinations{
+        height: 800px !important;
+    }
+}
+
+@media (max-width: 422.98px) { 
+    .desCrds{
+        width:308px !important;
+        height:380px !important;
+    }
+}
+
+@media (max-width: 356.98px) { 
+    .desCrds{
+        width:268px !important;
+        height:360px !important;
+    }
+}
+
+@media (max-width: 348.98px) { 
+    #des-card-row{
+       margin-top: 80px;
+    }
+}

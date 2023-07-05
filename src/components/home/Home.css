@@ -1,0 +1,363 @@
+#home{
+    position: relative;
+    top: 90px;
+}
+
+#h-mainSent{
+    width:914px;
+    font-family: 'Inter', sans-serif;
+    font-size:78px;
+    height: max-content;
+}
+
+#h-button:hover{
+    background-color: white !important;
+    color: #D37643 !important;
+    border: 3px solid #D37643;
+}
+
+
+#h-leftB-line {
+    height: 267px;
+    width: 228px;
+    position: relative;
+    left: 243px;
+}
+
+#h-leftB-plane {
+    height: 48px;
+    width: 48px;
+    position: relative;
+    top: 8px;
+    left: 195px;
+}
+
+#h-rightB-line {
+    height: 338px;
+    width: 155px;
+    position: absolute;
+    right: 400px;
+    top: 68px;
+}
+
+#h-rightB-plane {
+    height: 29px;
+    width: 26px;
+    position: absolute;
+    top: 57px;
+    right: 205px;
+}
+
+#earthStart {
+    position: absolute;
+    bottom: 295px;
+    width: 1540px;
+}
+
+
+#earthMap {
+    position: absolute;
+    top: 350px;
+    width: 1540px;
+}
+
+#earthEnd {
+    position: absolute;
+    top: 868px;
+    width: 1540px;
+}
+
+
+#h-cnt-box {
+    position: relative;
+    top: 265px;
+    width: 1540px;
+}
+
+#homeEarth{
+        height: 1163px;
+        width: 1540px;
+        position: absolute;
+}
+
+#homePlane{
+    height: 327px;
+    width: 1540px;
+    position: absolute;
+    top: 13px;
+}
+
+#h-cnt-row{
+    position: relative;
+}
+
+/*-------------------- responsive----------------------------------------- */
+
+
+@media (max-width: 1360.98px) { 
+    #h-cnt-box{
+       width: 1360px;
+    }
+   
+}
+
+@media (max-width: 1024.98px) { 
+    #h-leftB-line {
+        left: 57px;
+    }
+    #h-leftB-plane {
+        left: 12px;
+    }
+
+    #h-rightB-line {
+        right: 230px;
+        top: 80px;
+    }
+
+    #h-rightB-plane {
+        top: 68px;
+        right: 52px;
+    }
+
+    #amatikulu-img {
+        height: 202px !important;
+        width: 1010px !important;
+    }
+
+    #earthStart {
+        bottom: 415px;
+        width: 1024px;
+    }
+    #earthEnd {
+        top: 748px;
+        width: 1024px;
+    }
+    #earthMap {
+        top: 407px;
+        width: 1024px;
+    }
+
+   #home {
+        height: 1055px !important;
+    }
+
+    #amatikulu-row {
+        height: 371px !important;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+    #h-cnt-row{
+        height: 185px !important;
+        margin-top: 20px;
+    }
+
+    #amatikulu-img {
+        height: 185px !important;
+        width: 940px !important;
+        margin-top: 77px !important;
+    }
+ }
+
+ @media (max-width: 983.98px) {
+    #h-mainSent{
+        margin-top: 50px !important;
+    
+    }
+ }
+
+@media (max-width: 965.98px) { 
+    #h-mainSent{
+        width: 714px;
+    }
+}
+
+@media (max-width: 896.98px) { 
+    #h-Cont{
+        height: 80px !important;
+    }
+}
+@media (max-width: 768.98px) { 
+    #h-Cont{
+        height: 130px !important;
+    }
+    #h-cnt-row{
+        height: 210px !important;
+        margin-top: 13px;
+    }
+
+    #amatikulu-img {
+        height: 185px !important;
+        width: 738px !important;
+        margin-top: 97px !important;
+    }
+    #h-leftB-plane {
+        top: 35px;
+    }
+
+    #h-leftB-line {
+
+        top: 26px;
+    }
+
+    #earthStart {
+        bottom: 419px;
+        width: 768px;
+    }
+    #earthEnd {
+        top: 744px;
+        width: 768px;
+    }
+
+    #earthMap {
+        top: 488px;
+        width: 768px;
+    }
+
+   #home {
+        height: 1015px !important;
+    }
+
+    #amatikulu-row {
+        height: 380px !important;
+    }
+}
+
+@media (max-width: 690.98px) { 
+    #h-mainSent{
+        width: 514px;
+        font-size:68px;
+    }
+    #h-mainSentRow{
+        height: 405px !important;
+    }
+    #h-cnt-box-Bg{
+        height: 230px !important;
+    }
+    #h-cnt-box{
+        top: 420px;
+    }
+
+    #h-leftB-line {
+        left: 106px;
+        top: 133px;
+    }
+
+    #h-leftB-plane {
+        top: 140px;
+        left: 57px;
+    }
+
+    #h-rightB-line {
+        right: 255px;
+        top: 234px;
+    }
+
+    #h-rightB-plane {
+        top: 223px;
+        right: 56px;
+    }
+
+    #earthStart {
+        bottom: 277px;
+        width: 690px;
+    }
+
+    #earthEnd {
+        top: 886px;
+        width: 690px;
+    }
+    #earthMap {
+        top: 658px;
+        width: 690px;
+    }
+
+    #home{
+        height: 1140px !important;
+    }
+
+    #amatikulu-row {
+        height: 350px !important;
+    }
+}
+
+@media (max-width: 662.98px) { 
+    #h-Cont{
+        height: 150px !important;
+    }
+
+    #h-cnt-row{
+        height: 240px !important;
+        margin-top: 20px;
+    }
+
+    #h-cnt-box-Bg{
+        height: 275px !important;
+    }
+}
+
+
+@media (max-width: 575.98px) { 
+    #h-Cont{
+        height: 290px !important;
+    }
+
+    #h-cnt-row{
+        height: 395px !important;
+        margin-top: 12px;
+    }
+
+    #h-cnt-row-cntier {
+        height: 320px !important; 
+    }
+
+    #h-cnt-box-Bg{
+        height: 410px !important;
+    }
+    #h-cnt-row-cntier {
+        height: 335px;
+    }
+    #earthStart {
+        bottom: 73px !important;
+        width: 575px !important;
+    }
+    #earthEnd {
+        top: 1089px !important;
+        width: 575px !important;
+    }
+
+    #earthMap {
+        top: 900px !important;
+        width: 575px !important;
+    }
+
+    #amatikulu-img {
+        height: 151px !important;
+        width: 548px !important;
+        margin-top: 118px !important;
+    }
+
+    #home {
+        height: 1300px !important;
+    }
+}
+
+@media (max-width: 550.98px) { 
+    #h-mainSent{
+        width: 414px;
+        font-size:60px;
+    }
+}
+
+@media (max-width: 370.98px) { 
+    #h-mainSent{
+        margin-top: 70px !important;
+        width: 314px;
+        font-size:50px;
+    }
+
+    #h-leftB-line ,#h-leftB-plane, #h-rightB-line, #h-rightB-plane {
+        display: none;
+    }
+}

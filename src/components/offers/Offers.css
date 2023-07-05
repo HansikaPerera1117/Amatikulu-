@@ -1,0 +1,166 @@
+
+.offSImg img {
+    width: 270px;
+    height: 250px;
+    object-fit: cover; 
+    transition: width 0.3s, height 0.3s; 
+  }
+  
+  .offSImg:hover img {
+    width: 100%; 
+    height: 100%; 
+  }
+
+   #offLImg img {
+    width: 386px;
+    height: 550px;
+    object-fit: cover; 
+    transition: width 0.3s, height 0.3s; 
+  }
+  
+   #offLImg:hover img {
+    width: 115%; 
+    height: 115%; 
+  }
+ 
+
+
+@media (max-width: 1321.98px) { 
+    .o-img-sm{
+        height: 230px !important;
+        width: 250px !important;
+    }
+    #o-img-lg{
+        height: 510px !important;
+        width: 347px !important;
+    }
+}
+
+@media (max-width: 1217.98px) { 
+    .o-img-sm{
+        height: 200px !important;
+        width: 220px !important;
+    }
+    #o-img-lg{
+        height: 420px !important;
+        width: 287px !important;
+    }
+}
+
+@media (max-width: 992.98px) { 
+    #s-img-2{
+        margin-top: 0 !important;
+    }
+
+    #o-img-lg{
+        margin-top: 20px;
+        height: 600px !important;
+        width: 400px !important;
+    }
+    #Offers{
+        height: 855px !important;
+    }
+}
+
+@media (max-width: 767.98px) { 
+    .o-img-sm{
+        height: 230px !important;
+        width: 250px !important;
+    }
+    #s-img-2{
+        margin-top: 30px !important;
+    }
+    
+    #o-img-lg{
+        height: 500px !important;
+        width: 347px !important;
+    }
+
+    #Offers{
+        height: 1180px !important;
+    }
+
+    #off-cnt{
+        height: 430px !important;
+    }
+}
+
+@media (max-width: 610.98px) { 
+    .o-img-sm{
+        height: 200px !important;
+        width: 220px !important;
+    }
+    #o-img-lg{
+        height: 420px !important;
+        width: 287px !important;
+    }
+
+    #offImage-row{
+        height: 505px !important;
+    }
+}
+
+@media (max-width: 576.98px) { 
+    .o-img-sm{
+        height: 350px !important;
+        width: 380px !important;
+    }
+   
+    #o-img-lg{
+        height: 520px !important;
+        width: 387px !important;
+    }
+
+    #offImage-row{
+        height: 1260px !important;
+    }
+
+    #off-cnt-sen{
+        height: 430px !important;
+    }
+
+    #off-cnt{
+        height: 495px !important;
+    }
+
+    #Offers{
+        height: 1925px !important;
+    }
+}
+
+@media (max-width: 416.98px) { 
+    .o-img-sm{
+        height: 250px !important;
+        width: 280px !important;
+    }
+    #o-img-lg{
+        height: 420px !important;
+        width: 287px !important;
+    }
+
+    #offImage-row{
+        height: 995px !important;
+    }
+
+    #Offers{
+        height: 1750px !important;
+    }
+
+    #off-cnt-sen{
+        height: 545px !important;
+    }
+
+    #off-cnt{
+        height: 575px !important;
+    }
+
+    #Offers{
+        height: 1685px !important;
+    }
+
+}
+
+@media (max-width: 375.98px) { 
+
+}
+
